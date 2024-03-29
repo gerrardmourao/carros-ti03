@@ -4,7 +4,7 @@ import iconLuxury from "./assets/icon-luxury.svg"
 
 export default function App() {
   return (
-    <main>
+    <main className="border-2 border-orange min-h-svh bg-offwhitebg py-20 px-6">     
       <sectin>
         <div className="bg-orange">
           <img src={iconSedans} alt="ícone dos carros sedan" />
@@ -32,4 +32,3 @@ export default function App() {
 }
 
 
-f
