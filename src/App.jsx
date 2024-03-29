@@ -1,6 +1,6 @@
-import Sedans from "./components/Sedans"
-import Suvs from "./components/Suvs"
-import Luxuosos from "./components/Luxuosos"
+import Sedans from "./components/Sedans";
+import Suvs from "./components/Suvs";
+import Luxuosos from "./components/Luxuosos";
 
 export default function App() {
   return (
@@ -11,6 +11,5 @@ export default function App() {
         <Luxuosos />
       </div>
     </main>
-  )
+  );
 }
-
