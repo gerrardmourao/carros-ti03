@@ -1,17 +1,18 @@
 import Sedans from "./components/Sedans"
 import Suvs from "./components/Suvs"
-import Luxuosos from "./components/Luxuosos"
+import Luxury from "./components/Luxury"
 
 
-export default function app() {
-   return (
-    <main className= "min-h-svh bg-offwhitebg py-20 px-6 antialiased lg:flex justify-center items-center" >
-      <div className= "lg:flex max-w-[920px]" >
+export default function App() {
+  return(
+    <main className = "py-20 px-6 min-h-svh bg-offwhitebg antialiased lg:flex justify-center items-center">
+      <div className="lg:flex max-w-[920px]">
+
         <Sedans />
         <Suvs />
-        <Luxuosos />
+        <Luxury />
+
       </div>
     </main>
-   )
-
+  )
 }
